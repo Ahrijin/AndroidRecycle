@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <EditText
+        android:layout_marginTop="10dp"
+        android:id="@+id/search_edit"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="12dp"
+        android:layout_weight="6"
+        android:background="@drawable/search"
+        android:hint="烧烤炉"
+        android:layout_marginRight="20dp"
+        android:paddingLeft="15dp"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/quxiao"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="取消"/>
+</LinearLayout>
